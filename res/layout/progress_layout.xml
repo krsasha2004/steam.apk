@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="11" android:layout_gravity="11" android:id="@id/progressView" android:layout_width="-2" android:layout_height="-2">
+    <ProgressBar android:gravity="11" android:layout_gravity="11" android:id="@id/progressBar" android:layout_width="24dp" android:layout_height="24dp" android:layout_marginLeft="12dp" android:layout_marginRight="12dp" android:maxWidth="24dp" android:maxHeight="24dp" android:indeterminate="true" android:minWidth="24dp" android:minHeight="24dp" />
+</LinearLayout>

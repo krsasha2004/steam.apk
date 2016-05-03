@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout custom:orientation="1" custom:id="@id/splitView_Contents" custom:layout_width="-1" custom:layout_height="-1"
+    <LinearLayout custom:orientation="0" custom:id="@id/twofactor_container" custom:layout_width="-1" custom:layout_height="-2">
+        <com.valvesoftware.android.steam.community.fragment.TwoFactorCodeListView custom:id="@id/two_factor_code_list_view" custom:layout_width="-1" custom:layout_height="-2" />
+    </LinearLayout>
+    <LinearLayout custom:orientation="1" custom:id="@id/settings_placeholder" custom:layout_width="-1" custom:layout_height="-1" custom:layout_below="@id/twofactor_container"
+        <LinearLayout custom:orientation="1" custom:id="@id/steamguard_change_button_container" custom:layout_width="-1" custom:layout_height="-1">
+            <com.valvesoftware.android.steam.community.views.SteamWebButton custom:textColor="@color/settings_steamguard_button_text" custom:id="@id/steamguard_change_button" custom:layout_width="-1" custom:layout_height="-2" custom:titleText="@string/steamguard_change_button" custom:detailText="@string/steamguard_scheme_email" custom:topBorder="true" />
+            <com.valvesoftware.android.steam.community.views.SteamWebButton custom:textColor="@color/settings_steamguard_button_text" custom:id="@id/steamguard_rcode_button" custom:layout_width="-1" custom:layout_height="-2" custom:titleText="@string/steamguard_rcode_button" custom:topBorder="true" />
+            <com.valvesoftware.android.steam.community.views.SteamWebButton custom:textColor="@color/settings_steamguard_button_text" custom:id="@id/steamguard_help_button" custom:layout_width="-1" custom:layout_height="-2" custom:titleText="@string/steamguard_help_button" custom:topBorder="true" custom:bottomBorder="true" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="1" android:id="@id/splitView_Contents" android:layout_width="-1" android:layout_height="-1">
+    <FrameLayout android:id="@id/twofactor_container" android:layout_width="-1" android:layout_height="-2">
+        <com.valvesoftware.android.steam.community.fragment.TwoFactorCodeListView android:id="@id/two_factor_code_view" android:layout_width="-1" android:layout_height="130dp" />
+    </FrameLayout>
+    <LinearLayout android:orientation="1" android:id="@id/webview_container" android:background="@color/black" android:layout_width="-1" android:layout_height="-2" android:layout_weight="1.0" /> />

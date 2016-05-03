@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="-1" android:layout_height="-1">
+    <LinearLayout android:orientation="1" android:id="@id/splitView_Contents" android:layout_width="-1" android:layout_height="-1">
+        <fragment android:id="@id/webview" android:layout_width="-1" android:layout_height="-1" class="com.valvesoftware.android.steam.community.fragment.WebViewFragment" />
+    </LinearLayout>
+</FrameLayout>

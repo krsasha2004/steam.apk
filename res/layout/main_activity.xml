@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.DrawerLayout android:id="@id/drawer_layout" android:fitsSystemWindows="true" android:layout_width="-1" android:layout_height="-1">
+    <LinearLayout android:orientation="1" android:id="@id/splitView_Contents" android:background="@color/primary_background" android:layout_width="-1" android:layout_height="-1">
+        <android.support.v7.widget.Toolbar android:id="@id/steam_toolbar" android:background="@color/title_background" android:layout_width="-1" android:layout_height="?attr/actionBarSize" />
+        <com.valvesoftware.android.steam.community.views.MenuBar android:id="@id/menu_bar" android:visibility="2" android:layout_width="-1" android:layout_height="50dp" />
+        <fragment android:id="@id/searchbar" android:layout_width="-1" android:layout_height="-2" class="com.valvesoftware.android.steam.community.fragment.SearchBarFragment" />
+        <LinearLayout android:orientation="0" android:id="@id/fragment_placeholder" android:layout_width="-1" android:layout_height="-1" /> />
+    <ExpandableListView android:layout_gravity="3" android:id="@id/navigation" android:background="@color/secondary_background" android:paddingLeft="12dp" android:paddingRight="12dp" android:scrollbars="0" android:layout_width="@dimen/navigation_drawer_width" android:layout_height="-1" android:drawSelectorOnTop="true" android:groupIndicator="@styleable/View_android_focusable" android:childDivider="@color/secondary_background" android:divider="@color/secondary_background" android:dividerHeight="7dp" android:choiceMode="1" />
+</android.support.v4.widget.DrawerLayout>

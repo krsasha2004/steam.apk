@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:orientation="1" android:layout_width="-1" android:layout_height="-2">
+    <LinearLayout android:orientation="0" android:background="@drawable/bg_twofactorcode" android:layout_width="-1" android:layout_height="130dp">
+        <ImageView android:layout_gravity="11" android:id="@id/twofactor_back" android:padding="2dp" android:visibility="0" android:layout_width="-2" android:layout_height="-2" android:src="@drawable/twofactor_back" android:layout_weight="1.0" android:contentDescription="@styleable/View_android_focusable" />
+        <LinearLayout android:orientation="1" android:layout_width="-1" android:layout_height="-2" android:layout_weight="8.0">
+            <TextView android:textSize="50sp" android:textColor="@color/twofactorcode_normal" android:layout_gravity="1" android:id="@id/twofactorcode_code" android:paddingTop="0dp" android:paddingBottom="1dp" android:layout_width="-2" android:layout_height="-2" android:singleLine="false" />
+            <RelativeLayout android:orientation="1" android:layout_width="-1" android:layout_height="-2">
+                <com.valvesoftware.android.steam.community.TwoFactorCodeThermometerView android:layout_gravity="1" android:id="@id/twofactorcode_thermometer" android:layout_width="-1" android:layout_height="20dp" />
+            </RelativeLayout>
+            <RelativeLayout android:orientation="0" android:layout_width="-1" android:layout_height="-2" android:layout_weight="8.0">
+                <TextView android:textSize="10sp" android:textColor="@color/twofactorcode_valvetime" android:id="@id/twofactorcode_valvetime" android:paddingTop="0dp" android:paddingBottom="2dp" android:visibility="1" android:layout_width="-2" android:layout_height="-2" android:text="@string/valvetime" android:singleLine="false" android:layout_alignParentLeft="true" />
+                <TextView android:textSize="16sp" android:textColor="@color/twofactorcode_account_name" android:gravity="11" android:id="@id/twofactorcode_account_name" android:paddingTop="0dp" android:paddingBottom="0dp" android:layout_width="-2" android:layout_height="-2" android:singleLine="false" android:layout_centerInParent="true" />
+            </RelativeLayout>
+        </LinearLayout>
+        <ImageView android:layout_gravity="11" android:id="@id/twofactor_forward" android:padding="2dp" android:visibility="0" android:layout_width="-2" android:layout_height="-2" android:src="@drawable/twofactor_forward" android:layout_weight="1.0" android:layout_alignParentRight="true" android:contentDescription="@styleable/View_android_focusable" />
+    </LinearLayout>
+</merge>

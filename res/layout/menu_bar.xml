@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="0" android:background="@color/title_background" android:layout_width="-1" android:layout_height="50dp">
+    <Button android:layout_gravity="10" android:id="@id/hamburgerButton" android:background="@drawable/ic_action_menu" android:layout_width="30dp" android:layout_height="30dp" android:layout_marginLeft="8dp" android:text=" " />
+    <FrameLayout android:layout_width="0dp" android:layout_height="-1" android:layout_weight="1.0">
+        <com.valvesoftware.android.steam.community.views.RobotoRegularTextView android:textSize="20sp" android:textStyle="1" android:textColor="@color/primary_foreground" android:ellipsize="3" android:gravity="800013" android:id="@id/titleLabel" android:paddingLeft="15sp" android:paddingRight="15sp" android:layout_width="-1" android:layout_height="-1" android:text="" android:singleLine="true" />
+        <Button android:layout_gravity="15" android:id="@id/titleNavSearchButton" android:background="@drawable/ic_action_search" android:visibility="2" android:layout_width="30dp" android:layout_height="30dp" android:layout_marginRight="5dp" android:text=" " />
+    </FrameLayout>
+    <FrameLayout android:layout_gravity="10" android:layout_width="38dp" android:layout_height="30dp">
+        <Button android:layout_gravity="10" android:id="@id/titleNavRefreshButton" android:background="@drawable/ic_action_refresh" android:visibility="2" android:layout_width="30dp" android:layout_height="30dp" android:layout_marginRight="8dp" android:text=" " />
+        <ProgressBar android:gravity="11" android:layout_gravity="11" android:id="@id/titleProgressBar" android:layout_width="24dp" android:layout_height="24dp" android:layout_marginLeft="6dp" android:layout_marginRight="12dp" android:maxWidth="24dp" android:maxHeight="24dp" android:indeterminate="true" android:minWidth="24dp" android:minHeight="24dp" />
+    </FrameLayout>
+    <RelativeLayout android:layout_width="-2" android:layout_height="-2">
+        <ImageButton android:layout_gravity="11" android:id="@id/titleExtraButton" android:background="0x106000d" android:visibility="2" android:layout_width="24dp" android:layout_height="24dp" android:layout_marginTop="12dp" android:layout_marginRight="12dp" />
+    </RelativeLayout>
+</LinearLayout>

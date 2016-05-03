@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu>
+    <item app:id="@id/action_example" app:title="Example" app:showAsAction="5" />
+    <item app:id="@id/action_settings" app:orderInCategory="100" app:title="settings" app:showAsAction="0" />
+</menu>

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout community:orientation="1" community:layout_width="-1" community:layout_height="-1">
+    <com.valvesoftware.android.steam.community.views.SteamWebView community:id="@id/webview" community:layout_width="-1" community:layout_height="0dp" community:layout_weight="1.0" />
+    <com.valvesoftware.android.steam.community.fragment.TwoFactorCodeListView community:id="@id/login_twofactor_view" community:layout_width="-1" community:layout_height="130dp" community:invisibleIfNoCodes="true" />
+</LinearLayout>

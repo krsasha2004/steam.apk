@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="1" android:layout_width="-1" android:layout_height="-1"
+    <LinearLayout android:layout_gravity="11" android:id="@id/web_select_layout" android:background="@drawable/table_cell_section" android:visibility="2" android:layout_width="-1" android:layout_height="32sp" android:weightSum="8.0">
+        <RadioGroup android:orientation="0" android:id="@id/toggleGroup" android:layout_width="-1" android:layout_height="-1">
+            <ToggleButton android:id="@id/web_select_1" style="@style/webview_category_btn" />
+            <ToggleButton android:id="@id/web_select_2" style="@style/webview_category_btn" />
+            <ToggleButton android:id="@id/web_select_3" style="@style/webview_category_btn" />
+            <ToggleButton android:id="@id/web_select_4" style="@style/webview_category_btn" />
+            <ToggleButton android:id="@id/web_select_5" style="@style/webview_category_btn" />
+            <ToggleButton android:id="@id/web_select_6" style="@style/webview_category_btn" />
+            <ToggleButton android:id="@id/web_select_7" style="@style/webview_category_btn" />
+            <ToggleButton android:id="@id/web_select_8" style="@style/webview_category_btn" />
+        </RadioGroup>
+    </LinearLayout>
+    <com.valvesoftware.android.steam.community.views.SteamWebView android:id="@id/webView" android:background="@color/black" android:layout_width="-1" android:layout_height="-1" />
+</LinearLayout>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="0" android:padding="@dimen/widget_margin" android:layout_width="-1" android:layout_height="-1"
+    <RelativeLayout android:orientation="0" android:background="@drawable/widget_shape" android:layout_width="-1" android:layout_height="-1">
+        <ImageView android:id="@id/widgetLogo" android:layout_width="-1" android:layout_height="-1" android:src="@drawable/widget_bg" android:scaleType="2" />
+        <LinearLayout android:orientation="0" android:layout_width="-1" android:layout_height="-1">
+            <ImageView android:layout_gravity="11" android:id="@id/twofactor_back" android:padding="2dp" android:visibility="1" android:layout_width="0dp" android:layout_height="-2" android:src="@drawable/twofactor_back" android:layout_weight="1.0" android:contentDescription="@styleable/View_android_focusable" />
+            <LinearLayout android:orientation="1" android:id="@id/linearLayout" android:padding="8dp" android:layout_width="0dp" android:layout_height="-1" android:layout_weight="6.0">
+                <TextView android:textSize="16sp" android:textColor="@color/twofactorcode_thermometer_normal" android:gravity="11" android:id="@id/twofactorcode_account_name" android:layout_width="-1" android:layout_height="0dp" android:text="@string/widget_no_steamguard" android:layout_weight="1.3" />
+                <TextView android:textSize="@dimen/abc_text_size_large_material" android:textStyle="1" android:textColor="@color/twofactorcode_normal" android:gravity="11" android:id="@id/twofactorcode_code" android:visibility="2" android:layout_width="-1" android:layout_height="0dp" android:text="@string/widget_no_code" android:layout_weight="2.0" />
+                <LinearLayout android:orientation="0" android:id="@id/twofactorcode_thermometer" android:layout_width="-1" android:layout_height="2dp">
+                    <ImageView android:id="@id/twofactor_thermo_img" android:layout_width="0dp" android:layout_height="-1" android:scaleType="1" android:layout_weight="1.0" />
+                </LinearLayout>
+            </LinearLayout>
+            <ImageView android:layout_gravity="11" android:id="@id/twofactor_forward" android:padding="2dp" android:visibility="1" android:layout_width="0dp" android:layout_height="-2" android:src="@drawable/twofactor_forward" android:layout_weight="1.0" android:contentDescription="@styleable/View_android_focusable" />
+        </LinearLayout>
+    </RelativeLayout>
+</RelativeLayout>

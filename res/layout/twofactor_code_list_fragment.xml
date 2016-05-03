@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="-1" android:layout_height="-2">
+    <com.valvesoftware.android.steam.community.PagingHorizontalScrollView android:id="@id/twofactor_code_fragment_horizontalscroller" android:visibility="0" android:fadingEdge="0" android:layout_width="-1" android:layout_height="-2" />
+    <FrameLayout android:id="@id/two_factor_placeholder" android:background="@drawable/bg_twofactorcode" android:visibility="2" android:layout_width="-1" android:layout_height="130dp">
+        <ImageView android:layout_gravity="11" android:id="@id/steamguard_banner" android:layout_width="-1" android:layout_height="-1" android:src="@drawable/steamguard_banner" android:scaleType="5" android:contentDescription="@styleable/View_android_focusable" />
+    </FrameLayout>
+</FrameLayout>

@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<appwidget-provider android:minWidth="120dp" android:minHeight="60dp" android:updatePeriodMillis="0" android:initialLayout="@layout/steamguard_widget" android:previewImage="@drawable/widget_preview" android:resizeMode="1" android:widgetCategory="3" />
